@@ -69,3 +69,14 @@ h1{
     text-align: center;
     margin-top: 8px;
 }
+
+.prix{
+    font-size: 20px;
+    width: 250px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

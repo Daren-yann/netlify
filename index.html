@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <h1>Animation d'un cube 3D</h1>
+    <h1></h1>
     <div class="container">
         <div class="cube">
             <div class="face front"></div>
@@ -20,5 +20,27 @@
         
         </div>
     </div>
+    <div class="prix">
+        <p class="first">Contactez-moi sur WatsApp pour une petite discussion !!👌😊🔥😊</p>
+<p><a href="https://wa.me/22952742818?text=Bienvenue%20sur%20mon%20compte%20Whatsapp%20😊👌"><img src="bola.png" alt="image" height="100px" width="100px"></a>
+   </p>
+</div>
+    <script>
+        const titre=document.querySelector("h1");
+        const txt="Animation d'un cube 3D";
+
+        function type(word,index){
+            if(index < word.length){
+                setTimeout(() =>{
+                    titre.innerHTML+=`<span>${word[index]}</span>`
+                    type(txt,index +1)
+                },300);
+            }
+        }
+
+        setTimeout(() =>{
+            type(txt,0)
+        },500);
+    </script>
 </body>
 </html>
